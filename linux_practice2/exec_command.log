@@ -1,0 +1,300 @@
+  151  sudo git init
+  152  sudo first.txt
+  153  sudo touch first.txt
+  154  ls
+  155  git stutas
+  156  git state
+  157  git status
+  158  git remote -v
+  159  git branch
+  160  git branch -r
+  161  git branch hiroki_terata
+  162  git branch 
+  163  git add
+  164  sudo git add
+  165  sudo git init
+  166  sudo git add
+  167  sudo git status
+  168  sudo git add server_lesson
+  169  sudo git add /vagrant/server_lesson
+  170  sudo git commit -m'テストコミット'
+  171  sudo git log
+  172  sudo git remote add origin https://github.com/thiro-413/server_lesson.git
+  173  git remote -v
+  174  sudo git push origin master
+  175  sudo git branch
+  176  exi
+  177  exit
+  178  ls /
+  179  /vagrant
+  180  cd /vagrant
+  181  ls
+  182  cd server_lesson
+  183  ls
+  184  ls ..
+  185  pwd
+  186  cd ..
+  187  mkdir server_lesson/linux_practice/public
+  188  cd /vagrant
+  189  mkdir server_lesson/linux_practice/public
+  190  mkdir -p server_lesson/linux_practice/public
+  191  ls server_lesson server_lesson/linux_practice
+  192  ls
+  193  ls server_lesson server_lesson/linux_practice
+  194  ls
+  195  cd server_lesson
+  196  ls
+  197  cd ..
+  198  sudo mkdir -p server_lesson/linux_practice/public
+  199  ls
+  200  ls server_lesson server_lesson/linux_practice
+  201  touch server_lesson/linux_practice/public/index.php
+  202  sudo touch server_lesson/linux_practice/public/index.php
+  203  ls server_lesson/linux_practice/public
+  204  cd /vagrant/server_lesson && ls
+  205  cd /vagrant/server_lesson/linux_practice/public
+  206  cp index.php index_bk.php
+  207  sudo cp index.php index_bk.php
+  208  ls
+  209  cd /vagrant/server_lesson/linux_practice
+  210  cp -r public tmp
+  211  sudo cp -r public tmp
+  212  ls ./ public tmp
+  213  ls ./
+  214  ls
+  215  cd /vagrant
+  216  sudo mv server_lesson/linux_practice server_lesson/linux_practice
+  217  ls
+  218  cd server_lesson
+  219  ls
+  220  cd /vagrant
+  221  sudo mv server_lesson/linux_practice server_lesson/linux_practice1
+  222  ls /vagrant/server_lesson
+  223  mkdir linux_practice2 linux_practice3
+  224  sudo mkdir linux_practice2 linux_practice3
+  225  sudo mv ./linux_practice2 ./server_lesson
+  226  ls
+  227  cd /vagrant/server_lesson/linux_practice1/tmp/
+  228  ls
+  229  sudo rm *_bk.php
+  230  ls
+  231  cd /vagrant
+  232  sudo rm server_lesson/first.txt
+  233  rm -r linux_practice3
+  234  ls server_lesson
+  235  ls
+  236  sudo rm -r linux_practice3
+  237  ls
+  238  cd /vagrant/server_lesson
+  239  echo '# サーバレッスン' > README.md
+  240  sudo echo '# サーバレッスン' > README.md
+  241  ls
+  242  sudo mkdir abc
+  243  ls
+  244  sudo rm -r abc
+  245  ls
+  246  sudo touch README.md
+  247  ls
+  248  サーバレッスン' > README.md
+  249  sudo tee echo '# サーバレッスン' > README.md
+  250  ls
+  251  sudo rm README.md
+  252  ls
+  253  echo '# サーバレッスン' | sudo tee > README.md
+  254  sudo echo '# サーバレッスン' | sudo tee > README.md
+  255  sudo sh -c "echo '# サーバレッスン' > README.md"
+  256  ls
+  257  cd /
+  258  ls
+  259  ls -a
+  260  find /
+  261  ls .*
+  262  cd vagrant/
+  263  ls
+  264  cd /
+  265  ls -l
+  266  ls -a -l
+  267  cd vagrant
+  268  ls
+  269  cd server_lesson
+  270  ls
+  271  sh -c "echo 'Linuxプラクティス' >> README.md"
+  272  sudo sh -c "echo 'Linuxプラクティス' >> README.md"
+  273  sudo sh -c "echo '-----------------' >> README.md"
+  274  sudo cat README.md
+  275  ls
+  276  ls linux_practice1
+  277  ls linux_practice1/public
+  278  cd ..
+  279  ls
+  280  cd server_lesson
+  281  ls
+  282  ls linux_practice1
+  283  ls linux_practice1/tmp
+  284  ls linux_practice1/public
+  285  ls linux_practice2
+  286  ls
+  287  vi README.md
+  288  git status
+  289  git branch
+  290  git brabch hiroki_terata
+  291  git branch hiroki_terata
+  292  sudo git branch hiroki_terata
+  293  sudo git checkout hiroki_terata
+  294  git branch
+  295  ls
+  296  git status
+  297  sudo git add server_lesson
+  298  sudo git add /vagrant/server_lesson
+  299  sudo git commit -m "UNIXコマンド学習"
+  300  git status
+  301  sudo git push
+  302  sudo git origin hiroki_terata
+  303  sudo git push origin hiroki_terata
+  304  ls
+  305  git status
+  306  ls
+  307  ls ..
+  308  sudo git add ..
+  309  git remote -v
+  310  cd ..
+  311  ls
+  312  sudo git add server_lesson
+  313  cd server_lesson
+  314  sudo git diff
+  315  sudo git add /vagrant/server_lesson
+  316  git status
+  317  sudo git commit
+  318  sudo git push origin /vagrant/server_lesson
+  319  sudo git origin hiroki_terata
+  320  sudo git push origin hiroki_terata
+  321  ls
+  322  vi README.md
+  323  cat  
+  324  git status
+  325  sudo git add /vagrant/server_lesson
+  326  sudo git diff
+  327  sudo git commit -m "README.mdにLinuXコマンド記述"
+  328  sudo git push origin hiroki_terata
+  329  exit
+  330  sudo yum update kernel
+  331  exit
+  332  ls /
+  333  ls /vagrant
+  334  cd vagrant
+  335  cd /vagrant
+  336  mkdir aa
+  337  history 3 > lo.log
+  338  cat lo.log
+  339  rm lo.log
+  340  exit
+  341  cd /vagrant
+  342  mkdir server_lesson
+  343  cd server_lesson
+  344  git init
+  345  git clone https://github.com/thiro-413/server_lesson.git
+  346  git remote -v
+  347  ls
+  348  mv server_lesson /vagrant
+  349  mv server_lesson server_lesson1
+  350  ls
+  351  mv server_lesson1 /vagrant
+  352  ls
+  353  cd ..
+  354  ls
+  355  rm -r server_lesson
+  356  ls
+  357  mv server_lesson1 server_lesson
+  358  ls
+  359  cd server_lesson
+  360  ls
+  361  git remote -v
+  362  git clone https://github.com/thiro-413/server_lesson.git
+  363  git remote -v
+  364  ls
+  365  ls server_lesson
+  366  cd /vagrant
+  367  ls
+  368  rm -r server_lesson
+  369  cd /vagrant
+  370  ls
+  371  cd server_lesson
+  372  ls
+  373  rm -r server_lesson
+  374  sudo rm -r sever_lesson
+  375  ls
+  376  sudo rm -r server_lesson
+  377  ls
+  378  git pull origin hiroki_terata
+  379  git pull
+  380  cd ..
+  381  ls
+  382  server_lesson
+  383  cd server_lesson
+  384  git init
+  385  git remote -v
+  386  ls
+  387  /vgarant
+  388  cd /vagrant
+  389  ls
+  390  re -r server_lesson
+  391  rm -r server_lesson
+  392  sudo rm -r server_lesson
+  393  ls
+  394  git clone https://github.com/thiro-413/server_lesson.git
+  395  ls
+  396  cd server_lesson
+  397  ls
+  398  git branch hiroki_terata
+  399  ls
+  400  git branch
+  401  git checkout hiroki_terata
+  402  ls
+  403  git branch
+  404  ls
+  405  git remote -v
+  406  git pull origin hiroki_terata
+  407  ls
+  408  cd ~
+  409  sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+  410  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+  411  sudo yum install -y docker-ce
+  412  docker -v
+  413  sudo curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+  414  sudo chmod +x /usr/local/bin/docker-compose
+  415  docker-compose --version
+  416  docker-compose version 1.16.1, build 1719ceb
+  417  exit
+  418  cd /vagrant
+  419  ls
+  420  cd server_lesson
+  421  ls
+  422  mkdir linux_practice2
+  423  rm first.txt
+  424  ls
+  425  ls linux_practice1
+  426  ls linux_practice1/public
+  427  ls linux_practice1/tmp
+  428  cd linux_practice2
+  429  mkdir documents
+  430  mkdir documents/gizumo[01..50].md
+  431  ls documents
+  432  rm -r documents/gizumo[01..50].md
+  433  touch documents/gizumo[01..50].md
+  434  ls documents
+  435  cd documents
+  436  rm gizumo[01..50].md
+  437  touch gizumo{01..50}.md
+  438  ls
+  439  cd ..
+  440  mkdir trash
+  441  mv documents/gizumo{20..40}.md trash
+  442  ls
+  443  ls documents
+  444  ls trash
+  445  touch .gitignore
+  446  ls-a
+  447  ls -a
+  448  vi .gitignore
+  449  history 300
+  450  history 300 > exec_command.log
