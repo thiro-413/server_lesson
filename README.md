@@ -1,46 +1,23 @@
 # サーバレッスン
 Linuxプラクティス
 
-ls(List)
-=>自分が現在位置しているディレクトリ内に存在するディレクトリやファイルを一覧表示する
- *オプション
- -a
- =>不可視ファイルも表示
- -l
- =>タイプや権限、所有者や所有グループなどの詳細情報を表示
+- ls(List)
 
-pwd(Print Working Directory)
-=>現在自分が位置しているディレクトリ = ワーキングディレクトリ がどこであるか出力
+- pwd(Print Working Directory)
 
-cd (Change Directory)
-=>ワーキングディレクトリを指定したディレクトリに変更
+- cd (Change Directory)
 
-mkdir (MaKe DIRectory)
-=>ディレクトリを作成
+- mkdir (MaKe DIRectory)
 
-touch
-=>ファイルを作成
+- touch
 
-cp (CoPy)
-=>ファイルあるいはディレクトリのコピーを行う
- *オプション
- -r
- =>ディレクトリの複製が可能
+- cp (CoPy)
 
-mv (MoVe)
-=>ファイル名やディレクトリ名を変更する、またファイルやディレクトリの移動を行う
+- mv (MoVe)
 
-rm (ReMove)
-=>ファイルやディレクトリの削除
- *オプション
- -r
- =>ディレクトリごと削除
- -f
- =>削除実行の際に警告メッセージを表示せずに削除(注意)
+- rm (ReMove)
 
-cat (CATnate)
-=>指定したファイルの内容をターミナル上に出力
+- cat (CATnate)
 
-vi
-=>ターミナル上でエディタを即時起動
+- vi
 -----------------
